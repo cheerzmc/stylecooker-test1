@@ -1,5 +1,5 @@
 module.exports = function(grunt){
-  grunt.initConfig(
+  grunt.initConfig({
     sass: {
       dist: {
         files: {
@@ -7,7 +7,7 @@ module.exports = function(grunt){
         }
       }
     }
-  );
+  });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.registerTask('default', ['sass']);
