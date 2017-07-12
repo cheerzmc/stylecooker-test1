@@ -3,7 +3,7 @@ var jshint = require('gulp-jshint');
 gulp.task('lint', function(){
   return gulp.src('public/javascripts/*.js')
     .pipe(jshint())
-    .pipe(shiny.reporter('default'));
+    .pipe(jshint.reporter('default'));
 });
 
 gulp.task('default', ['lint']);
