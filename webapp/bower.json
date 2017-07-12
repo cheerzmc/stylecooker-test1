@@ -1,0 +1,17 @@
+{
+  "name": "webapp",
+  "description": "stylecooker-test1-webapp",
+  "main": "",
+  "authors": [
+    "admin@extentsoft.com <admin@extentsoft.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cheerzmc/stylecooker-test1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
